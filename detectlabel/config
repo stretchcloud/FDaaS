@@ -1,2 +1,2 @@
 [default]
-region = us-east-1 
+region = <AWS Region code, for example us-east-1>
