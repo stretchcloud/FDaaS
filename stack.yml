@@ -1,0 +1,10 @@
+provider:
+  name: faas
+  gateway: http://129.213.194.84:8080
+functions:
+  detectlabel:
+    lang: dockerfile
+    handler: ./detectlabel
+    image: jit2600/detectlabel:latest
+
+      
